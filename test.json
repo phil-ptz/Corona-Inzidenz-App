@@ -1,0 +1,123 @@
+b'{
+    "objectIdFieldName": "OBJECTID",
+    "uniqueIdField": {
+        "name": "OBJECTID",
+        "isSystemMaintained": true
+    },
+    "globalIdFieldName": "",
+    "geometryType": "esriGeometryPolygon",
+    "spatialReference": {
+        "wkid": 25832,
+        "latestWkid": 25832
+    },
+    "fields": [
+        {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "EWZ",
+            "type": "esriFieldTypeInteger",
+            "alias": "Einwohnerzahl",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "last_update",
+            "type": "esriFieldTypeString",
+            "alias": "Aktualisierung",
+            "sqlType": "sqlTypeOther",
+            "length": 256,
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "death_rate",
+            "type": "esriFieldTypeDouble",
+            "alias": "Sterberate",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "cases",
+            "type": "esriFieldTypeInteger",
+            "alias":"F\xc3\xa4lle",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "deaths",
+            "type": "esriFieldTypeInteger",
+            "alias":"Todesf\xc3\xa4lle",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "cases_per_100k",
+            "type": "esriFieldTypeDouble",
+            "alias":"F\xc3\xa4lle/100.000 EW",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "county",
+            "type": "esriFieldTypeString",
+            "alias": "Landkreis",
+            "sqlType": "sqlTypeOther",
+            "length": 256,
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "cases7_lk",
+            "type": "esriFieldTypeInteger",
+            "alias":"F\xc3\xa4lle der letzten 7 Tage pro Landkreis",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "death7_lk",
+            "type": "esriFieldTypeInteger",
+            "alias":"Todesf\xc3\xa4lle der letzten 7 Tage pro Landkreis",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "cases7_per_100k_txt",
+            "type": "esriFieldTypeString",
+            "alias":"F\xc3\xa4lle der letzten 7 Tage/100000 EW (Text)",
+            "sqlType": "sqlTypeOther",
+            "length": 256,
+            "domain": null,
+            "defaultValue": null
+        }
+    ],
+    "features": [
+        {
+            "attributes": {
+                "OBJECTID": 364,
+                "EWZ": 197741,
+                "last_update": "07.05.2021, 00:00 Uhr",
+                "death_rate": 2.52862962108985,
+                "cases": 13011,
+                "deaths": 329,
+                "cases_per_100k": 6579.81905624023,
+                "county": "LK Nordsachsen",
+                "cases7_lk": 292,
+                "death7_lk": 0,
+                "cases7_per_100k_txt": "147,7"
+            }
+        }
+    ]
+}'
