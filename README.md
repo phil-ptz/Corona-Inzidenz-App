@@ -1,1 +1,1 @@
-gibt die corona inzidenz je nach landkreis an
+gibt die corona inzidenz je nach landkreis an (api outdated)
